@@ -1,6 +1,9 @@
 import React from 'react';
 import imgTeto from '../images/img/Teto-realiza-projeto-mobiliario-do-Hospital-Albert-Einstein-de-Goiania-em-apenas-cinco-meses.jpg';
 
+//css
+import '../css/sobre-nos.css';
+
 export default function SobreNos(){
 
     return(

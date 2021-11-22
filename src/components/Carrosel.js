@@ -1,8 +1,15 @@
 import React from 'react';
+
+//IMGS
 import imgHospitalA from '../images/img/Hospital-Israelita-Albert-Einstein-completa-50-anos-de-historia.jpg';
 import imgHospitalBonito from '../images/img/imagem_2021-10-09_225325.png';
 import imgFachadaHospital from '../images/img/imagem_2021-10-09_221206.png';
+
+//JS
 import '../JS/carrossel.js';
+
+//css
+import '../css/carrosel.css';
 
 export default function Carrosel(){
     return(
