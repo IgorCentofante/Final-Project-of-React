@@ -1,0 +1,128 @@
+.caixa-colaboradores {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+
+  border: 0.1rem solid #ccc;
+  margin: 0 0 5%, 0;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 0.35rem;
+  width: 84%;
+
+  padding: 1em;
+  margin-bottom: 30px;
+}
+
+.titulo-apresentação {
+  font-size: 1.563rem;
+  text-align: center;
+  grid-column: span 3;
+  margin-bottom: 1em;
+}
+
+.colaboradores2 {
+  margin-top: 2%;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0rem 0.1rem 0rem 1.5rem;
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.max-width {
+  display: inline;
+  max-width: 500px;
+  width: 100%;
+}
+
+.profile-img {
+  margin-top: 2%;
+  max-width: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: #eee;
+  border: 5px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.profile-img:hover {
+  background-color: rgb(180, 180, 180);
+  border: 5px solid #111;
+}
+
+.inputColaboradores {
+  float: left;
+}
+
+.caixaNomes {
+  border: 0px solid #111;
+  width: 145px;
+  height: auto;
+  margin-left: 2%;
+  font-size: 18px;
+  display: inline;
+}
+
+#caixa1,
+#caixa2,
+#caixa3,
+#caixa4,
+#caixa5,
+#caixa6 {
+  text-align: center;
+  border: 0px solid #111;
+  height: auto;
+  font-size: 15px;
+  display: inline;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: #121212;
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+.linkedin:hover p {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa-colaboradores {
+    grid-template-columns: 1fr 1fr;
+
+    text-align: center;
+    margin-left: 19%;
+    width: 80%;
+    height: auto;
+  }
+  .Colaboradores {
+    font-size: 5px;
+  }
+
+  .titulo-apresentação {
+    grid-column: span 2;
+  }
+}
