@@ -1,3 +1,4 @@
+
 // variaveis
 var guardar = document.getElementById("input1"); 
 var titulo = document.getElementById("titulo"); 
@@ -30,7 +31,6 @@ var Cancelar2 = document.getElementById("botao-cancela2");
 var Cancelar3 = document.getElementById("botao-cancela4");
 
 
-
 //funçoões
 salvar.addEventListener("click",() => { 
 var valor = guardar.value;
@@ -50,8 +50,8 @@ localStorage.setItem("dbKey1", "Desde 1947 salvando vidas");})
 //--------------------------------------
 
 salvar2.addEventListener("click",() => { 
-var valor2 = guardar2 .value; 
-localStorage.setItem("dbKey2", valor2);}); 
+var valor2 = guardar2.value; 
+localStorage.setItem("dbKey2",valor2);}); 
 sobre.innerText = Armazena2; 
 
 Cancelar2.addEventListener("click",() => { 
@@ -73,7 +73,7 @@ const openModal1 = () => {
     .classList.add('active')}
 
 const closeModal1 = () => {
-    clearFields()
+    // clearFields()
     document.querySelector('.modal1').classList.remove('active')
 }
 
@@ -89,4 +89,5 @@ document.querySelector("#modalClose1")
   });
 
 
-    
+
+
