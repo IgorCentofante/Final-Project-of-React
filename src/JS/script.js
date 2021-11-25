@@ -1,11 +1,14 @@
-'use strict'
+function Geral(){
+
+
 
             let photoBernardo = document.getElementById('bernardoImg');
             let fileBernardo = document.getElementById('imageBernardo');
 
+                    
                     photoBernardo.addEventListener('click', () => {
-                        var confirmar  = confirm("Você quer mesmo remover a imagem")
-                        if(confirmar == true){
+                        var confirmar  = window.confirm("Você quer mesmo remover a imagem")
+                        if(confirmar === true){
                     fileBernardo.click();}
                     });
 
@@ -30,8 +33,8 @@
             let fileKaua = document.getElementById('imageKaua');
 
                     photoKaua.addEventListener('click', () => {
-                       var confirmar  = confirm("Você quer mesmo remover a imagem")
-                        if(confirmar == true){
+                       var confirmar  = window.confirm("Você quer mesmo remover a imagem")
+                        if(confirmar === true){
                     fileKaua.click();}
                         });
 
@@ -56,8 +59,8 @@
             let fileIgor = document.getElementById('imageIgor');
 
                     photoIgor.addEventListener('click', () => {
-                        var confirmar  = confirm("Você quer mesmo remover a imagem")
-                        if(confirmar == true){
+                        var confirmar  = window.confirm("Você quer mesmo remover a imagem")
+                        if(confirmar === true){
                         fileIgor.click();}
                     });
 
@@ -81,8 +84,8 @@
             let fileKelwyn = document.getElementById('imageKelwyn');
         
                     photoKelwyn.addEventListener('click', () => {
-                        var confirmar  = confirm("Você quer mesmo remover a imagem")
-                        if(confirmar == true){
+                        var confirmar  = window.confirm("Você quer mesmo remover a imagem")
+                        if(confirmar === true){
                         fileKelwyn.click();}
                      });
         
@@ -105,8 +108,8 @@
             let fileThauan = document.getElementById('imageThauan');
         
                         photoThauan.addEventListener('click', () => {
-                            var confirmar  = confirm("Você quer mesmo remover a imagem")
-                        if(confirmar == true){
+                            var confirmar  = window.confirm("Você quer mesmo remover a imagem")
+                        if(confirmar === true){
                             fileThauan.click();}
                      });
         
@@ -129,8 +132,8 @@
                     let fileManu = document.getElementById('imageManu');
                 
                                 photoManu.addEventListener('click', () => {
-                                    var confirmar  = confirm("Você quer mesmo remover a imagem")
-                                  if(confirmar == true){
+                                    var confirmar  = window.confirm("Você quer mesmo remover a imagem")
+                                  if(confirmar === true){
                                     fileManu.click();}
                              });
                 
@@ -150,5 +153,5 @@
                             });           
                 
 
-
-
+        }
+export default Geral;

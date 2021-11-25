@@ -3,7 +3,7 @@ import Carrosel from '../src/components/Carrosel';
 import SobreNos from './components/SobreNos';
 import ConsultasDisponiveis from './components/ConsultasDisponiveis';
 import NavBar from './components/NavBar';
-
+import Crud from './components/Crud';
 
 //Arquivos CSS separados
 import '../src/css/reset.css';
@@ -21,7 +21,7 @@ import '../src/css/sobre-nos.css';
 
 
 //Arquivos JS para teste
-
+import '../src/JS/script'
 
 function App() {
   return(
@@ -30,7 +30,9 @@ function App() {
       <NavBar/>
       <Carrosel/>
       <SobreNos/>
+      <Crud/>
       <ConsultasDisponiveis/> 
+      
 
     </div>
   )
