@@ -1,3 +1,9 @@
+
+export default function teste(){
+
+
+
+
 const openModal = () => document.getElementById('modal')
     .classList.add('active')
 
@@ -53,7 +59,7 @@ const saveClient = () => {
             Horarios: document.getElementById('Horarios').value
         }
         const index = document.getElementById('Paciente').dataset.index
-        if (index == 'new') {
+        if (index === 'new') {
             createClient(client)
             updateTable()
             closeModal()
@@ -80,8 +86,8 @@ const createRow = (client, index) => {
     document.querySelector('#tableClient>tbody').appendChild(newRow)
 }
 
-function novoPacienteFormulario() {
-    const client = {
+     function novoPacienteFormulario() {
+        const client = {
       Paciente: document.getElementById("username").value,
       Nascimento: document.getElementById("dob").value, 
       Consulta: document.getElementById("tdpd").value,
@@ -90,6 +96,8 @@ function novoPacienteFormulario() {
     }
     createClientForm(client);
   }
+  novoPacienteFormulario();
+
 
 const createClientForm = (client) => {
     const dbClient = getLocalStorage()
@@ -123,15 +131,15 @@ const editClient = (index) => {
 }
 
 const editDelete = (event) => {
-    if (event.target.type == 'button') {
+    if (event.target.type === 'button') {
        
         const [action, index] = event.target.id.split('-')
 
-        if (action == 'edit') {
+        if (action === 'edit') {
             editClient(index)
         } else {
             const client = readClient()[index]
-            const response = confirm(`Deseja realmente excluir o cliente ${client.Paciente}`)
+            const response = window.confirm(`Deseja realmente excluir o cliente ${client.Paciente}`)
             if (response) {
                 deleteClient(index)
                 updateTable()
@@ -153,3 +161,4 @@ document.querySelector('#tableClient>tbody')
 document.getElementById('cancelar')
     .addEventListener('click', closeModal)
 
+}

@@ -5,6 +5,7 @@ import ConsultasDisponiveis from './components/ConsultasDisponiveis';
 import NavBar from './components/NavBar';
 import Crud from './components/Crud';
 import Colaboradores from '../src/components/Colaboradores';
+import Formulario from './components/Formulario';
 
 //Arquivos CSS separados
 import '../src/css/reset.css';
@@ -19,7 +20,8 @@ import '../src/css/cabeçalho.css';
 import '../src/css/consultas.css';
 import '../src/css/colaboradores.css';
 import '../src/css/sobre-nos.css';
-import '../src/JS/script'
+import '../src/JS/script';
+import '../src/css/form.css';
 
 
 
@@ -29,9 +31,10 @@ function App() {
     <div className="container-de-tudo">
       <NavBar/>
       <Carrosel/>
-      <SobreNos/>
-      <Crud/>
+      <SobreNos/> 
       <ConsultasDisponiveis/> 
+      <Formulario/>
+      <Crud/>
       <Colaboradores/>
     </div>
   )

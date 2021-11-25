@@ -1,11 +1,5 @@
 import React from 'react';
 
-//css
-
-//js
-
-//imgs
-
 export default function Crud() {
 
     return (
