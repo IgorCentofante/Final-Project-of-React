@@ -3,6 +3,7 @@ import Carrosel from '../src/components/Carrosel';
 import SobreNos from './components/SobreNos';
 import ConsultasDisponiveis from './components/ConsultasDisponiveis';
 import NavBar from './components/NavBar';
+import Colaboradores from './components/Colaboradores';
 
 
 //Arquivos CSS separados
@@ -30,8 +31,8 @@ function App() {
       <NavBar/>
       <Carrosel/>
       <SobreNos/>
-      <ConsultasDisponiveis/> 
-
+      <ConsultasDisponiveis/>
+      <Colaboradores/>
     </div>
   )
 }
