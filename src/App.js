@@ -30,7 +30,7 @@ function App() {
       <NavBar/>
       <Carrosel/>
       <SobreNos/>
-      <ConsultasDisponiveis/>
+      <ConsultasDisponiveis/> 
 
     </div>
   )
