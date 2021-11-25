@@ -1,7 +1,5 @@
 function Geral(){
 
-
-
             let photoBernardo = document.getElementById('bernardoImg');
             let fileBernardo = document.getElementById('imageBernardo');
 
