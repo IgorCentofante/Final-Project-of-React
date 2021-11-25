@@ -32,8 +32,6 @@ function App() {
       <SobreNos/>
       <Crud/>
       <ConsultasDisponiveis/> 
-      
-
     </div>
   )
 }
