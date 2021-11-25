@@ -24,7 +24,7 @@ input {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid #ccc;
+  border: 1px solid #cfcfcf;
   border-radius: 0.25rem;
 }
 
@@ -57,7 +57,7 @@ input {
   transform: translateY(-50%);
   height: 4px;
   width: 100%;
-  background-color: #dcdcdc;
+  background-color: #21b6ab;
   z-index: -1;
 }
 
@@ -70,7 +70,7 @@ input {
 .progress-step {
   width: 2.1875rem;
   height: 2.1875rem;
-  background-color: #dcdcdc;
+  background-color: #e0f7fa;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -153,8 +153,8 @@ input {
   padding: 0.75rem;
   display: block;
   text-decoration: none;
-  background-color: var(--primary-color);
-  color: #f3f3f3;
+  background-color: #21b6ab;
+  color: #ffff;
   text-align: center;
   border-radius: 0.25rem;
   cursor: pointer;

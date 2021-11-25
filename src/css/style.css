@@ -10,7 +10,7 @@
   top: 0;
   height: 100%;
   width: 78px;
-  background: rgb(155, 194, 199);
+  background: #21b6ab;
   padding: 6px 14px;
   z-index: 4;
   transition: all 0.5s ease;
@@ -29,7 +29,7 @@
   transition: all 0.5s ease;
 }
 .sidebar .logo-details .logo_name {
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 600;
   opacity: 0;
@@ -55,13 +55,17 @@
   text-align: right;
 }
 .sidebar i {
-  color: #fff;
+  color: #21b6ab;
   height: 60px;
   min-width: 50px;
   font-size: 28px;
   text-align: center;
   line-height: 60px;
 }
+#btn {
+  color: white;
+}
+
 .sidebar .nav-list {
   margin-top: 20px;
   height: 100%;
@@ -120,7 +124,7 @@
   left: 0;
   transform: translateY(-50%);
   font-size: 22px;
-  background: rgb(72, 112, 117);
+  background: #21b6ab;
   color: #fff;
 }
 .sidebar.open .bx-search:hover {
