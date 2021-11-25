@@ -18,10 +18,9 @@ import '../src/css/cabeçalho.css';
 import '../src/css/consultas.css';
 import '../src/css/colaboradores.css';
 import '../src/css/sobre-nos.css';
-
-
-//Arquivos JS para teste
 import '../src/JS/script'
+
+
 
 function App() {
   return(
