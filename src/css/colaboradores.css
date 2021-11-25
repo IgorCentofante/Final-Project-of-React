@@ -57,6 +57,7 @@ input[type="file"] {
 }
 
 .profile-img:hover {
+  transition: all 0.7s ease;
   background-color: rgb(180, 180, 180);
   border: 5px solid #111;
 }

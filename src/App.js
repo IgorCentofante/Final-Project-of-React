@@ -21,9 +21,6 @@ import '../src/css/colaboradores.css';
 import '../src/css/sobre-nos.css';
 
 
-//Arquivos JS para teste
-
-
 function App() {
   return(
     
