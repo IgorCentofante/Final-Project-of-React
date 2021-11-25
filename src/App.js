@@ -4,6 +4,7 @@ import SobreNos from './components/SobreNos';
 import ConsultasDisponiveis from './components/ConsultasDisponiveis';
 import NavBar from './components/NavBar';
 import Crud from './components/Crud';
+import Colaboradores from '../src/components/Colaboradores';
 
 //Arquivos CSS separados
 import '../src/css/reset.css';
@@ -31,6 +32,7 @@ function App() {
       <SobreNos/>
       <Crud/>
       <ConsultasDisponiveis/> 
+      <Colaboradores/>
     </div>
   )
 }
